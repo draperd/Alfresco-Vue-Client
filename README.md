@@ -1,6 +1,6 @@
-# vue2
+# Alfresco Vue Client
 
-> A Vue.js project
+This is project was created using the Vue CLI and is an experiment in developing a client in Vue.js for accessing a local Alfresco Repository. More information can be found about it's development in [this blog post](https://community.alfresco.com/people/ddraper/blog/2017/01/12/re-visiting-vuejs).
 
 ## Build Setup
 
@@ -25,4 +25,3 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-# Alfresco-Vue-Client
