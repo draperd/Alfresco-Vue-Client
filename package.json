@@ -16,7 +16,7 @@
     "vue": "^2.1.0"
   },
   "devDependencies": {
-    "alfresco-js-utils": "0.0.4",
+    "alfresco-js-utils": "0.0.5",
     "autoprefixer": "^6.4.0",
     "babel-core": "^6.0.0",
     "babel-eslint": "^7.0.0",

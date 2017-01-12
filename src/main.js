@@ -12,13 +12,10 @@ Vue.use(VueResource);
 Vue.use(VueRouter);
 
 const routes = [
-   // Redirect default root to home
    {
       path: '/',
       redirect: '/home'
    },
-
-   // The main page for the application, protected with a guard to ensure the user is logged in
    {
       path: '/home',
       component: Home,
@@ -30,8 +27,6 @@ const routes = [
          }
       }
    },
-
-   // The login component...
    { path: '/login', component: Login }
 ];
 

@@ -2,10 +2,12 @@
    <div>
       <span>Hello</span>
       <span @click="logout()">Logout</span>
+      <list></list>
    </div>
 </template>
 
 <script>
+   import List from './lists/List.vue';
    import auth from 'alfresco-js-utils/lib/Authentication';
    export default {
       data() {
@@ -18,6 +20,9 @@
                this.$router.push('/login');
             });
          }
+      },
+      components: {
+         List
       }
    };
 </script>
